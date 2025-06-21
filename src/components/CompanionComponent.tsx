@@ -184,7 +184,7 @@ const CompanionComponent = ({
             {callStatus === CallStatus.ACTIVE
               ? "End Session"
               : callStatus === CallStatus.CONNECTING
-              ? "Connectiong"
+              ? "Connecting"
               : "Start Session"}
           </button>
         </div>
